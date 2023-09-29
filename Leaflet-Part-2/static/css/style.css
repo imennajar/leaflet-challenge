@@ -9,11 +9,6 @@ html {
   height: 100%;
 }
 
-/* Apply grayscale to map tiles */
-.grayscale .leaflet-tile {
-  filter: grayscale(70%);
-}
-
 /* Updated CSS for legend below */
 .info {
   background-color: white;
@@ -22,6 +17,10 @@ html {
   border: 5px solid #ccc;
 }
 
+.legend-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 /* Add background color for the legend colors */
 .legend-color {
   width: 24px;
@@ -29,4 +28,3 @@ html {
   display: inline-block;
   margin-right: 5px;
 }
-
