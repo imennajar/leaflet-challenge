@@ -1,14 +1,15 @@
 # leaflet-challenge
-The USGS provides earthquake data in a number of different formats, updated every 5 minutes. In this project, we will visualize earthquake data from all over the world each day,for the past 7 days and developing a way to better educate the public and other government organizations on issues facing our planet.
+The USGS provides earthquake data in a number of different formats, updated every 5 minutes. In this project, we will visualize earthquake data from all over the world each day, for the past 7 days and developing a way to better educate the public and other government organizations on issues facing our planet.
 
 
 Link from where we will get our data: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
 ## What we will learn from this project:
 
-- How to interact between HTML,CSS and JavaScript code
+- How to interact between HTML, CSS and JavaScript code
 
 - How to retrieve data from a GeoJson file (provided in URL link: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson)
+
 
 - How to use Leaflet to create a map from the dataset
 
@@ -18,23 +19,23 @@ Link from where we will get our data: https://earthquake.usgs.gov/earthquakes/fe
 
 ### Part1:
  
-  - Use the D3 library to get the dataset from the URL provided,
+  - Use the D3 library to get the dataset from the URL provided
 
-  - Use Leaflet to create a map that plots all the earthquakes from the dataset based on their longitude and latitude and the data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color.
+  - Use Leaflet to create a map that plots all the earthquakes from the dataset based on their longitude and latitude, and the data markers should reflect the magnitude of the earthquakes by their size and the depth of the earthquakes by color
 
-  - Include popups that provide additional information about the earthquake when its associated marker is clicked,
+  - Include popups that provide additional information about the earthquake when its associated marker is clicked
 
-  - Create a legend that will provide context for your map data.
+  - Create a legend that will provide context for your map data
 
 ### Prt2:
 
-- Plot the tectonic plates dataset on the map in addition to the earthquakes,
+- Plot the tectonic plates dataset on the map in addition to the earthquakes
 
-- Add other base maps to choose from,
+- Add other base maps to choose from
 
-- Put each dataset into separate overlays that can be turned on and off independently,
+- Put each dataset into separate overlays that can be turned on and off independently
 
-- Add layer controls to your map.
+- Add layer controls to your map
 
  ## Program:
 
@@ -428,3 +429,4 @@ L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(myMap);
 <img src='map2.png' style ='width:700px;height:300px'/> 
 
 
+##### Supports: Slack AskBCS Learning Assistant/ Tutoring session.

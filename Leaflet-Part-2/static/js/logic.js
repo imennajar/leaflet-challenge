@@ -74,6 +74,7 @@ legend.addTo(myMap);
 
 // Use D3.js to load earthquake data and create markers
 d3.json(earthquakeUrl).then(function (response) {
+    console.log(response)
     response.features.forEach(function (quake) {
 
         let magnitude = quake.properties.mag;
@@ -108,6 +109,7 @@ let tectonicUrl = "static/tectonic.json";
 
 // Load tectonic plates data and add it to the tectonicLayer
 d3.json(tectonicUrl).then(function (tectonicData) {
+    console.log(tectonicData)
     L.geoJSON(tectonicData, {
         style: function (feature) {
             return {
@@ -120,7 +122,7 @@ d3.json(tectonicUrl).then(function (tectonicData) {
 
 // Create a control layer
 let overlays = {
-    "Earthquake Data": earthquakeLayer,
+    "Earthquakes Data": earthquakeLayer,
     "Tectonic Plates": tectonicLayer
 };
 
